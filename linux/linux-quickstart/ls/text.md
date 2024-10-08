@@ -7,14 +7,16 @@ Lets use the `ls` command
 Use `ls` to help see whats in the filesystem
 
 
-First lets go home
-```bash
-cd $HOME
-```{{exec}}
-
 We can list the current directory using
 
 ```bash
 ls
 ```{{exec}}
 
+
+We can add parameters to a linux command to change its behaviour, lets try
+
+`-l` - long listing format (Think "long" or "list")
+```bash
+ls -l
+```{{exec}}

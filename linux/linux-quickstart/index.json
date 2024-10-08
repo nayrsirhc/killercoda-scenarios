@@ -9,8 +9,7 @@
     "steps": [
       {
         "title": "Navigation | the ls command",
-        "text": "ls/text.md",
-        "verify": "ls/verify.sh"
+        "text": "ls/text.md"
       },
       {
         "title": "Create a file with text",

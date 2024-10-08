@@ -1,7 +1,14 @@
 
-Lets use the `ls` command
+# Navigation | `ls`
 
 <br>
+
+### Cheat Sheet
+| **Command** | **Description** |
+| --- | --- |
+| `ls` | List files in the current directory |
+| `ls -l` | List files in the current directory in long format |
+| `ls -a` | List all files in the current directory, including hidden files |
 
 ### Solution
 Use `ls` to help see whats in the filesystem

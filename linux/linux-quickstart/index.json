@@ -10,7 +10,7 @@
       {
         "title": "Navigation | the ls command",
         "text": "ls/text.md",
-        "verify": "step1/verify.sh"
+        "verify": "ls/verify.sh"
       },
       {
         "title": "Create a file with text",

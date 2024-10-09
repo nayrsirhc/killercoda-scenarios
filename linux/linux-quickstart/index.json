@@ -1,5 +1,5 @@
 {
-  "title": "Linux Quickstart",
+  "title": "Linux Quickstart 🚀",
   "description": "The quickstart to kickstart your Linux journey",
   "details": {
     "intro": {
@@ -12,9 +12,8 @@
         "text": "ls/text.md"
       },
       {
-        "title": "Create a file with text",
-        "text": "step2/text.md",
-        "verify": "step2/verify.sh"
+        "title": "Navigation | the cd command",
+        "text": "cd/text.md"
       },
       {
         "title": "Delete a file",

@@ -1,6 +1,4 @@
 
-# Navigation | `ls`
-
 <br>
 
 ### Cheat Sheet
@@ -8,7 +6,11 @@
 | --- | --- |
 | `ls` | List files in the current directory |
 | `ls -l` | List files in the current directory in long format |
+| `ll` | Short hand for `ls -l` on some systems |
 | `ls -a` | List all files in the current directory, including hidden files |
+| `ls -la` | List all files in the current directory in long format |
+| `ls -lah` | List all files in the current directory in long format, in human readable format |
+| `ls -ltr` | List all files in the current directory in long format, sorted by time modified, newest first |
 
 ### Solution
 Use `ls` to help see whats in the filesystem
@@ -38,4 +40,22 @@ You can combine parameters to get the desired output, I like reading out the par
 For exmaple lets see a "list" of "all"
 ```bash
 ls -la
+```{{exec}}
+`-h` - human readable
+
+So lets "list" "all" "human readable"
+```bash
+ls -lah
+```{{exec}}
+`-t` - sort by time modified, newest first
+
+Or "list" "all" "human readable" by "time"
+```bash
+ls -laht
+```{{exec}}
+`-r` - reverse order
+
+Lets "list" by "time" in "reverse"
+```bash
+ls -ltr
 ```{{exec}}
